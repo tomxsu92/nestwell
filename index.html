@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Renter Guide 101 | Practical Maintenance Advice for Renters</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simple, practical home maintenance advice for renters who don’t want to lose their deposit.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<header>
+    <h1>Renter Guide 101</h1>
+    <p>No-nonsense maintenance advice for renters.</p>
+</header>
+
+<main>
+    <section class="intro">
+        <h2>Start Here</h2>
+        <p>
+            Renting your first place? Not sure what you’re responsible for?
+            Don’t panic. We break down common apartment problems in plain English —
+            what you can fix yourself, what to avoid, and when to call maintenance.
+        </p>
+    </section>
+
+    <section>
+        <h2>Latest Guides</h2>
+        <ul id="articles-list"></ul>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 Renter Guide 101</p>
+</footer>
+
+<script>
+fetch("articles.json")
+    .then(response => response.json())
+    .then(data => {
+        const list = document.getElementById("articles-list");
+        data.forEach(article => {
+            const li = document.createElement("li");
+            li.innerHTML = `<a href="articles/${article.slug}.html">${article.title}</a>`;
+            list.appendChild(li);
+        });
+    })
+    .catch(error => {
+        console.error("Error loading articles:", error);
+    });
+</script>
+
+</body>
+</html>
