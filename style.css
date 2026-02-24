@@ -64,3 +64,47 @@ main {
 a {
   color: #0066ff;
 }
+.article-container {
+  max-width: 760px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.article-container h1 {
+  font-size: 2.6rem;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.meta {
+  color: #777;
+  font-size: 0.9rem;
+  margin-bottom: 40px;
+}
+
+.article-container h2 {
+  margin-top: 50px;
+  font-size: 1.6rem;
+  border-left: 4px solid #0066ff;
+  padding-left: 12px;
+}
+
+.article-container p {
+  margin-bottom: 20px;
+  font-size: 1.05rem;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 40px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.callout {
+  background: #f0f4ff;
+  border-left: 4px solid #0066ff;
+  padding: 18px 20px;
+  margin: 30px 0;
+  border-radius: 8px;
+}
