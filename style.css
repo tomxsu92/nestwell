@@ -1,62 +1,66 @@
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f6f8;
-    color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  background: #f5f7fa;
+  color: #1a1a1a;
+  line-height: 1.6;
 }
 
 header {
-    background: #1f2933;
-    color: white;
-    padding: 40px 20px;
-    text-align: center;
+  background: #111;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
 }
 
 header h1 {
-    margin: 0;
-    font-size: 2.5rem;
+  margin: 0;
+  font-size: 2.8rem;
+  letter-spacing: -1px;
 }
 
 header p {
-    margin-top: 10px;
-    color: #cbd5e1;
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #bbb;
 }
 
 main {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 0 20px;
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
 }
 
-h2 {
-    margin-top: 40px;
-    color: #1f2933;
+.article-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+.article-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.08);
 }
 
-li {
-    margin-bottom: 12px;
+.article-card h2 {
+  margin-top: 0;
+}
+
+.article-card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #0066ff;
+}
+
+.article-card a:hover {
+  text-decoration: underline;
 }
 
 a {
-    text-decoration: none;
-    color: #2563eb;
-    font-weight: bold;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    text-align: center;
-    padding: 30px;
-    margin-top: 60px;
-    background: #e2e8f0;
-    font-size: 0.9rem;
+  color: #0066ff;
 }
