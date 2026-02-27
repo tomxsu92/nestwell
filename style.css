@@ -247,3 +247,45 @@ body {
   text-align: center;
   margin-top: 40px;
 }
+.page-header {
+  padding: 60px 20px;
+  text-align: center;
+  background: #f5f7fa;
+}
+
+.page-subtitle {
+  max-width: 600px;
+  margin: 10px auto 0;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.content-section {
+  padding: 60px 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.roadmap-list {
+  margin: 40px 0;
+}
+
+.roadmap-item {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-left: 4px solid #2c7be5;
+  background: #fafafa;
+}
+
+.next-step {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.back-home {
+  margin-top: 40px;
+  text-align: center;
+}
