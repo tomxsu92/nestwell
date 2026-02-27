@@ -270,7 +270,18 @@ body {
 }
 
 .roadmap-list {
-  margin: 40px 0;
+  list-style: none;
+  padding: 0;
+  margin: 30px 0;
+}
+
+.roadmap-list li {
+  margin-bottom: 18px;
+  padding: 18px 22px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.04);
+  line-height: 1.5;
 }
 
 .roadmap-item {
