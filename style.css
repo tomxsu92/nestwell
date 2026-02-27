@@ -1,21 +1,21 @@
-/* Base Reset */
+/* Global Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  background-color: #f8f9fb;
+  background-color: #f5f7f4;
   color: #1f2933;
   line-height: 1.6;
 }
 
-/* HERO SECTION */
+/* Hero Section */
 .hero {
-  background: #ffffff;
-  padding: 100px 20px;
+  background: linear-gradient(180deg, #eef2ed 0%, #f5f7f4 100%);
+  padding: 100px 20px 80px;
   text-align: center;
 }
 
@@ -26,41 +26,43 @@ body {
 
 .hero h1 {
   font-size: 3rem;
-  font-weight: 600;
   margin-bottom: 20px;
+  letter-spacing: -1px;
 }
 
 .hero-sub {
   font-size: 1.25rem;
-  font-weight: 500;
-  color: #4b5563;
+  color: #3b4a3f;
   margin-bottom: 20px;
 }
 
 .hero-description {
   font-size: 1rem;
-  color: #6b7280;
+  color: #5f6b62;
   margin-bottom: 40px;
 }
 
+/* Button */
 .cta-button {
   display: inline-block;
   padding: 14px 28px;
-  background-color: #2f6fed;
+  background-color: #3a6f5e;
   color: white;
   text-decoration: none;
   border-radius: 8px;
   font-weight: 500;
-  transition: 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .cta-button:hover {
-  background-color: #1e4fcc;
+  background-color: #2f5b4d;
+  transform: translateY(-2px);
 }
 
-/* ROADMAP SECTION */
+/* Roadmap Section */
 .roadmap {
   padding: 80px 20px;
+  text-align: center;
 }
 
 .roadmap-inner {
@@ -69,7 +71,6 @@ body {
 }
 
 .roadmap h2 {
-  text-align: center;
   font-size: 2rem;
   margin-bottom: 50px;
 }
@@ -80,41 +81,42 @@ body {
   gap: 25px;
 }
 
+/* Cards */
 .stage-card {
   background: white;
   padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
-  transition: 0.2s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04);
+  text-align: left;
+  transition: all 0.2s ease;
 }
 
 .stage-card:hover {
   transform: translateY(-4px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.06);
 }
 
 .stage-card h3 {
-  font-size: 1.1rem;
   margin-bottom: 15px;
+  font-size: 1.1rem;
 }
 
 .stage-card p {
-  font-size: 0.95rem;
-  color: #6b7280;
+  color: #5f6b62;
   margin-bottom: 20px;
 }
 
 .stage-card a {
   text-decoration: none;
-  color: #2f6fed;
+  color: #3a6f5e;
   font-weight: 500;
 }
 
-/* FOOTER */
+/* Footer */
 .site-footer {
-  background: #ffffff;
+  padding: 40px 20px;
   text-align: center;
-  padding: 30px;
-  margin-top: 80px;
+  background-color: #eef2ed;
   font-size: 0.9rem;
-  color: #6b7280;
+  color: #5f6b62;
 }
