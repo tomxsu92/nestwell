@@ -333,3 +333,46 @@ body {
   border: 1px solid #e5eaf2;
   box-shadow: none;
 }
+/* =========================
+   Medium-Style Lesson Layout
+========================= */
+
+.lesson-layout {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px 80px;
+}
+
+.lesson-content {
+  max-width: 720px;
+  width: 100%;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #2d3748;
+}
+
+.lesson-content h2 {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  font-size: 1.6rem;
+  color: #1f2937;
+}
+
+.lesson-content p {
+  margin-bottom: 18px;
+}
+
+.lesson-content ul {
+  margin: 15px 0 20px 20px;
+}
+
+.lesson-content li {
+  margin-bottom: 8px;
+}
+
+.lesson-content hr {
+  border: none;
+  height: 1px;
+  background: #e5eaf2;
+  margin: 40px 0;
+}
