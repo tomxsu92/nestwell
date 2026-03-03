@@ -304,3 +304,6 @@ body {
 .module-content {
   gap: 40px;
 }
+.info-card {
+  border-left: 4px solid #4f8cff;
+}
