@@ -442,3 +442,61 @@ body {
 .lesson-content section {
   margin-bottom: 60px;
 }
+/* =========================
+   Lesson Page Isolation Reset
+========================= */
+
+.lesson-page {
+  background: #ffffff;
+}
+
+.lesson-page .lesson-layout {
+  display: block;
+  padding: 80px 20px 100px;
+}
+
+.lesson-page .lesson-content {
+  max-width: 680px;
+  margin: 0 auto;
+  font-size: 1.15rem;
+  line-height: 1.9;
+  color: #2d3748;
+}
+
+.lesson-page .lesson-content h2 {
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+.lesson-page .lesson-content p {
+  margin-bottom: 20px;
+}
+
+.lesson-page .lesson-content section {
+  margin-bottom: 70px;
+}
+
+.lesson-page .navigation-buttons {
+  max-width: 680px;
+  margin: 80px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lesson-page .lesson-hero {
+  background: #ffffff;
+  padding: 100px 20px 40px;
+  text-align: center;
+}
+
+.lesson-page .lesson-hero h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.lesson-page .lesson-hero p {
+  font-size: 1.1rem;
+  color: #6b7280;
+}
