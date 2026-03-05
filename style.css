@@ -523,3 +523,25 @@ body {
 .home-link:hover{
   text-decoration:underline;
 }
+/* Home icon navigation */
+
+.home-icon{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:44px;
+  height:44px;
+  border-radius:10px;
+  background:#f3f4f6;
+  transition:all .2s ease;
+}
+
+.home-icon:hover{
+  background:#e5e7eb;
+}
+
+.home-svg{
+  width:26px;
+  height:26px;
+  fill:#2563eb;
+}
